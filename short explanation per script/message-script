@@ -1,17 +1,12 @@
 message-script 
 
-this applys to any script  
+# message-script wil send a message in the chat channel you have chosen
 
->>scripts.user
-<script name>
+after copy en saving the script you can run it with :>><user>.<script name>
 
->>#edit <script name>
-#be sure after editing to save it locally for example in visual studio in your folder
->>#up <script name>
-# #up command makes sure your script is not to many characters and can run you want this to be the result example: Success FULLSEC PRIVATE  84 / 2.000 chars (4,20%)
->><user>.<script name>
-# here an example :>>vexfica.vexingsim
+channel variable lets you choose a channel of choice 
+msg     variable lets you choose a message you want to write 
 
-return #fs.chats.send({ channel: "n00bz", msg: "this is a message" }) // sends a message to the n00bz channel  
+return #fs.chats.send({ channel: "n00bz", msg: "this is a message" })
 
 
