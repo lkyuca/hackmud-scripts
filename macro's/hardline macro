@@ -1,6 +1,13 @@
+you can just paste these in you terminal to make them
+if you want to use them for example kernel.hardline you type in the terminal :/hl
+its that simple 
+
 Creating a macro is done with the format /macro = original.script. Pre-defined parameters can also be applied. For example:
 
 /hl = kernel.hardline
+/dc = kernel.hardline { dc:true }
+/b = accts.balance
+/c = chats.send {{ channel:"{0}",msg:{1} }}
 
 To delete an existing macro, type /macro = with nothing after the =.
 
