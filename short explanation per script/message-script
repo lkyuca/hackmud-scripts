@@ -1,1 +1,9 @@
-test
+message-script 
+
+this applys to any script  
+
+
+
+return #fs.chats.send({ channel: "n00bz", msg: "this is a message" }) // sends a message to the n00bz channel  
+
+
