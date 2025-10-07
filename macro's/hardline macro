@@ -1,0 +1,8 @@
+Creating a macro is done with the format /macro = original.script. Pre-defined parameters can also be applied. For example:
+
+/hl = kernel.hardline
+
+To delete an existing macro, type /macro = with nothing after the =.
+
+>>/hl =
+Macro deleted.
