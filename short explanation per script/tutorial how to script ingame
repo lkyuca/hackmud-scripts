@@ -1,3 +1,13 @@
 i will provide a quick tutorial how to start any script ingame.
 
+>>scripts.user
+<script name>
 
+>>#edit <script name>
+#be sure after editing to save it locally for example in visual studio in your folder
+>>#up <script name>
+# #up command makes sure your script is not to many characters and can run you want this to be the result example: Success FULLSEC PRIVATE  84 / 2.000 chars (4,20%)
+>><user>.<script name>
+# here an example :>>vexfica.vexingsim
+
+#i recommand trying this out with the message script since its very easy to check if it works since you have a message in the chat
