@@ -1,0 +1,4 @@
+function(context, args)
+{
+	return #fs.chats.send({ channel: "n00bz", msg: "this is a message" })
+}
